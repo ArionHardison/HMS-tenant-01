@@ -1,0 +1,29 @@
+{
+    "sidebarItems": [
+        {
+            "id": "1",
+            "name": "5 Tips for Sustainable Business Success",
+            "link": "/news-single-post",
+            "imgUrl": "assets/img/placeholder/91x91.jpg"
+
+        },
+        {
+            "id": "2",
+            "name": "Assessing the Maturity of Your Data Management in Industry",
+            "link": "/news-single-post",
+            "imgUrl": "assets/img/placeholder/91x91.jpg"
+        },
+        {
+            "id": "3",
+            "name": "How to Build Your Sustainable Susiness Strategy",
+            "link": "/news-single-post",
+            "imgUrl": "assets/img/placeholder/91x91.jpg"
+        },
+        {
+            "id": "4",
+            "name": "5 Tips for Sustainable Business Success",
+            "link": "/news-single-post",
+            "imgUrl": "assets/img/placeholder/91x91.jpg"
+        }
+    ]
+}

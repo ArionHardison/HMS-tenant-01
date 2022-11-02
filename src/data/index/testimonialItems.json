@@ -1,0 +1,25 @@
+{
+    "testimonialItems": [
+        {
+            "id": "1",
+            "reviewsText": "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account.",
+            "reviewsName": "Tommy Andersen",
+            "reviewsPosition": "CEO at Company",
+            "reviewsImageSource": "assets/img/placeholder/60x60.jpg"
+        },
+        {
+            "id": "2",
+            "reviewsText": "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account.",
+            "reviewsName": "Arthur Hopin",
+            "reviewsPosition": "CEO at Company",
+            "reviewsImageSource": "assets/img/placeholder/60x60.jpg"
+        },
+        {
+            "id": "3",
+            "reviewsText": "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account.",
+            "reviewsName": "Rosie Ford",
+            "reviewsPosition": "CEO at Company",
+            "reviewsImageSource": "assets/img/placeholder/60x60.jpg"
+        }
+    ]
+}
