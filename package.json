@@ -6,9 +6,12 @@
     "private": true,
     "scripts": {
         "serve": "vue-cli-service serve",
-        "build": "vue-cli-service build"
+        "build": "vue-cli-service build",
+        "start": "node server.js",
+        "heroku-postbuild": "npm run build"
     },
     "dependencies": {
+        "express": "^4.18.2",
         "@glidejs/glide": "^3.4.1",
         "animate.css": "^3.7.2",
         "axios": "^0.21.1",
@@ -53,5 +56,8 @@
         "not dead",
         "not op_mini all",
         "ie 10"
-    ]
+    ],
+    "engines": {
+        "node": ">=18.0.0"
+    }
 }

@@ -35,6 +35,13 @@ npm run build    # Production build to dist/
 
 ## Deployment
 
-For Heroku deployment, ensure `package.json` does not contain `extract-text-webpack-plugin` (deprecated, conflicts with webpack 5 used by Vue CLI 4).
+**Heroku**: Uses express static server (`server.js`) to serve the built Vue SPA with history mode routing support.
 
-The app requires Node.js 13.7.0+ and uses standard `heroku/nodejs` buildpack.
+```bash
+git push heroku main    # Deploy to Heroku
+```
+
+- `heroku-postbuild` script runs `npm run build` automatically
+- `start` script runs `node server.js` to serve `dist/`
+- Ensure `package.json` does not contain `extract-text-webpack-plugin` (conflicts with webpack 5)
+- Node.js 18+ required (specified in `engines`)
