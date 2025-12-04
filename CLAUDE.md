@@ -44,4 +44,4 @@ git push heroku main    # Deploy to Heroku
 - `heroku-postbuild` script runs `npm run build` automatically
 - `start` script runs `node server.js` to serve `dist/`
 - Ensure `package.json` does not contain `extract-text-webpack-plugin` (conflicts with webpack 5)
-- Node.js 18+ required (specified in `engines`)
+- Node.js 18.x LTS required (specified in `engines`)
